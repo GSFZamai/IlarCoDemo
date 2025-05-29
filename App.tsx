@@ -6,10 +6,14 @@
  */
 
 import React from 'react';
-import {View} from 'react-native';
+import {Text, View} from 'react-native';
 
 function App(): React.JSX.Element {
-  return <View style={{flex: 1}}></View>;
+  return (
+    <View style={{flex: 1}}>
+      <Text>Demo App for IlarCo</Text>
+    </View>
+  );
 }
 
 export default App;
